@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int firNumber, secNumber,Mul;
+   
+   ///user input 
+   cout<<"Enter First Number ";
+   cin>>firNumber;
+   cout<<"Enter Second Number ";
+   cin>>secNumber;
+   ///Product formula
+Mul = firNumber*secNumber;
+cout<<"The Product For Two Number is "<<Mul;
+
+    return 0;
+}
